@@ -1,0 +1,51 @@
+review_id,movie_id,rating,sentiment,review_text,review_date,platform,helpful_votes
+R001,M031,9.2,positive,Zoya Akhtar has outdone herself. Stellar Run is a masterpiece of action storytelling.,2025-01-20,BookMyShow,412
+R002,M031,8.8,positive,Gripping from start to finish. The action sequences are world class.,2025-01-21,Google,388
+R003,M031,9.0,positive,Finally a Bollywood action film that feels global. Standing ovation.,2025-01-22,IMDb,501
+R004,M032,7.5,mixed,Dark Orbit had amazing visuals but the plot was confusing in the second half.,2025-03-23,BookMyShow,210
+R005,M032,6.9,negative,Expected more from Anurag Kashyap. Sci-fi is not his genre.,2025-03-24,Google,178
+R006,M032,7.8,mixed,Visually stunning but emotionally distant. Could have been tighter.,2025-03-25,IMDb,195
+R007,M033,8.5,positive,Last Kingdom is a roaring success. Action packed and emotionally resonant.,2024-11-10,BookMyShow,340
+R008,M033,8.7,positive,Kabir Khan delivers again. Brilliant ensemble cast.,2024-11-11,Google,365
+R009,M033,8.2,positive,Solid action film with great writing. One of 2024s best.,2024-11-12,IMDb,298
+R010,M035,5.8,negative,The sequel nobody asked for. Feels forced and unfunny.,2025-04-06,BookMyShow,89
+R011,M035,6.2,mixed,Some laughs but mostly disappointing. The original was better.,2025-04-07,Google,74
+R012,M036,5.5,negative,"Rohit Shetty on autopilot. Loud, shallow, predictable.",2024-12-21,BookMyShow,112
+R013,M036,6.0,mixed,Fun timepass but nothing memorable. Comedy felt stale.,2024-12-22,Google,98
+R014,M037,5.2,negative,"Jugaad Junction is a mess. Poor script, poor execution.",2024-08-17,BookMyShow,67
+R015,M037,5.5,negative,Anees Bazmee seems to have lost the touch. Very disappointing.,2024-08-18,IMDb,81
+R016,M003,9.0,positive,Timeless. 3 Idiots never gets old no matter how many times you watch it.,2025-01-10,BookMyShow,620
+R017,M015,8.8,positive,PK is brilliant satire. Aamir Khan at his absolute best.,2025-01-12,Google,540
+R018,M017,9.1,positive,Bajrangi Bhaijaan still makes you cry every single time.,2025-01-14,IMDb,710
+R019,M010,8.9,positive,Andhadhun is a masterclass in suspense. Tabu is phenomenal.,2025-01-16,BookMyShow,480
+R020,M028,8.7,positive,Chhichhore is heartwarming and hilarious in equal measure.,2025-01-18,Google,395
+R021,M034,7.6,positive,Mitti Ki Khushboo is a beautiful love story set in rural India.,2025-02-16,BookMyShow,220
+R022,M034,8.1,positive,Imtiaz Ali weaves magic again. Gorgeous cinematography.,2025-02-17,Google,245
+R023,M038,8.2,positive,Paani tackles climate change with nuance and heart.,2025-05-04,BookMyShow,180
+R024,M031,8.9,positive,Watched twice already. Stellar Run is the film of the year.,2025-02-01,BookMyShow,365
+R025,M031,9.1,positive,The social media buzz around Stellar Run is 100% justified.,2025-02-05,IMDb,420
+review_id,movie_id,rating,sentiment,review_text,review_date,platform,helpful_votes
+R001,M031,9.2,positive,Zoya Akhtar has outdone herself. Stellar Run is a masterpiece of action storytelling.,2025-01-20,BookMyShow,412
+R002,M031,8.8,positive,Gripping from start to finish. The action sequences are world class.,2025-01-21,Google,388
+R003,M031,9.0,positive,Finally a Bollywood action film that feels global. Standing ovation.,2025-01-22,IMDb,501
+R004,M032,7.5,mixed,Dark Orbit had amazing visuals but the plot was confusing in the second half.,2025-03-23,BookMyShow,210
+R005,M032,6.9,negative,Expected more from Anurag Kashyap. Sci-fi is not his genre.,2025-03-24,Google,178
+R006,M032,7.8,mixed,Visually stunning but emotionally distant. Could have been tighter.,2025-03-25,IMDb,195
+R007,M033,8.5,positive,Last Kingdom is a roaring success. Action packed and emotionally resonant.,2024-11-10,BookMyShow,340
+R008,M033,8.7,positive,Kabir Khan delivers again. Brilliant ensemble cast.,2024-11-11,Google,365
+R009,M033,8.2,positive,Solid action film with great writing. One of 2024s best.,2024-11-12,IMDb,298
+R010,M035,5.8,negative,The sequel nobody asked for. Feels forced and unfunny.,2025-04-06,BookMyShow,89
+R011,M035,6.2,mixed,Some laughs but mostly disappointing. The original was better.,2025-04-07,Google,74
+R012,M036,5.5,negative,"Rohit Shetty on autopilot. Loud, shallow, predictable.",2024-12-21,BookMyShow,112
+R013,M036,6.0,mixed,Fun timepass but nothing memorable. Comedy felt stale.,2024-12-22,Google,98
+R014,M037,5.2,negative,"Jugaad Junction is a mess. Poor script, poor execution.",2024-08-17,BookMyShow,67
+R015,M037,5.5,negative,Anees Bazmee seems to have lost the touch. Very disappointing.,2024-08-18,IMDb,81
+R016,M003,9.0,positive,Timeless. 3 Idiots never gets old no matter how many times you watch it.,2025-01-10,BookMyShow,620
+R017,M015,8.8,positive,PK is brilliant satire. Aamir Khan at his absolute best.,2025-01-12,Google,540
+R018,M017,9.1,positive,Bajrangi Bhaijaan still makes you cry every single time.,2025-01-14,IMDb,710
+R019,M010,8.9,positive,Andhadhun is a masterclass in suspense. Tabu is phenomenal.,2025-01-16,BookMyShow,480
+R020,M028,8.7,positive,Chhichhore is heartwarming and hilarious in equal measure.,2025-01-18,Google,395
+R021,M034,7.6,positive,Mitti Ki Khushboo is a beautiful love story set in rural India.,2025-02-16,BookMyShow,220
+R022,M034,8.1,positive,Imtiaz Ali weaves magic again. Gorgeous cinematography.,2025-02-17,Google,245
+R023,M038,8.2,positive,Paani tackles climate change with nuance and heart.,2025-05-04,BookMyShow,180
+R024,M031,8.9,positive,Watched twice already. Stellar Run is the film of the year.,2025-02-01,BookMyShow,365

@@ -1,0 +1,39 @@
+movie_id,title,genre,release_date,budget_inr,revenue_inr,rating,director,language
+M001,Dilwale Dulhania Le Jayenge,Romance,1995-10-20,40000000,890000000,9.1,Aditya Chopra,Hindi
+M002,Sholay,Action,1975-08-15,30000000,2500000000,9.2,Ramesh Sippy,Hindi
+M003,3 Idiots,Comedy,2009-12-25,550000000,4030000000,8.4,Rajkumar Hirani,Hindi
+M004,Mughal-E-Azam,Drama,1960-08-05,15000000,110000000,8.8,K. Asif,Hindi
+M005,Lagaan,Drama,2001-06-15,250000000,1300000000,8.1,Ashutosh Gowariker,Hindi
+M006,Devdas,Romance,2002-07-12,280000000,430000000,7.2,Sanjay Leela Bhansali,Hindi
+M007,Rang De Basanti,Drama,2006-01-26,200000000,1450000000,8.1,Rakeysh Omprakash Mehra,Hindi
+M008,Dil Chahta Hai,Comedy,2001-08-10,180000000,450000000,8.1,Farhan Akhtar,Hindi
+M009,Queen,Drama,2014-03-07,35000000,1040000000,8.2,Vikas Bahl,Hindi
+M010,Andhadhun,Thriller,2018-10-05,130000000,2160000000,8.3,Sriram Raghavan,Hindi
+M011,Gangs of Wasseypur,Action,2012-06-22,130000000,820000000,8.2,Anurag Kashyap,Hindi
+M012,Zindagi Na Milegi Dobara,Comedy,2011-07-15,650000000,1530000000,8.2,Zoya Akhtar,Hindi
+M013,Taare Zameen Par,Drama,2007-12-21,140000000,960000000,8.5,Aamir Khan,Hindi
+M014,Dil Dhadakne Do,Comedy,2015-06-05,850000000,1020000000,7.4,Zoya Akhtar,Hindi
+M015,PK,Comedy,2014-12-19,850000000,7920000000,8.1,Rajkumar Hirani,Hindi
+M016,Barfi,Comedy,2012-09-14,400000000,1200000000,8.1,Anurag Basu,Hindi
+M017,Bajrangi Bhaijaan,Drama,2015-07-17,900000000,9690000000,8.1,Kabir Khan,Hindi
+M018,Tumbbad,Horror,2018-10-12,75000000,320000000,8.3,Rahi Anil Barve,Hindi
+M019,Masaan,Drama,2015-07-24,30000000,120000000,8.2,Neeraj Ghaywan,Hindi
+M020,A Wednesday,Thriller,2008-09-05,25000000,450000000,8.3,Neeraj Pandey,Hindi
+M021,Drishyam,Thriller,2015-07-31,280000000,2380000000,8.2,Nishikant Kamat,Hindi
+M022,Rockstar,Romance,2011-11-11,400000000,1310000000,7.9,Imtiaz Ali,Hindi
+M023,Udta Punjab,Drama,2016-06-17,240000000,1000000000,7.7,Abhishek Chaubey,Hindi
+M024,Kahaani,Thriller,2012-03-09,80000000,1060000000,8.1,Sujoy Ghosh,Hindi
+M025,Pink,Drama,2016-09-16,170000000,1060000000,8.1,Aniruddha Roy Chowdhury,Hindi
+M026,Neerja,Drama,2016-02-19,175000000,1310000000,7.6,Ram Madhvani,Hindi
+M027,Stree,Horror,2018-08-31,250000000,2090000000,7.5,Amar Kaushik,Hindi
+M028,Chhichhore,Comedy,2019-09-06,900000000,2500000000,8.3,Nitesh Tiwari,Hindi
+M029,Article 15,Drama,2019-06-28,200000000,1010000000,8.1,Anubhav Sinha,Hindi
+M030,Rocketry,Drama,2022-07-01,260000000,1530000000,8.7,R. Madhavan,Hindi
+M031,Stellar Run,Action,2025-01-17,1100000000,5200000000,8.6,Zoya Akhtar,Hindi
+M032,Dark Orbit,Sci-Fi,2025-03-21,1500000000,3100000000,7.8,Anurag Kashyap,Hindi
+M033,Last Kingdom,Action,2024-11-08,980000000,4750000000,8.4,Kabir Khan,Hindi
+M034,Mitti Ki Khushboo,Romance,2025-02-14,400000000,1800000000,7.9,Imtiaz Ali,Hindi
+M035,Hasee Toh Phasee 2,Comedy,2025-04-04,600000000,890000000,6.8,Vinil Mathew,Hindi
+M036,Comedy Circus,Comedy,2024-12-20,350000000,420000000,6.1,Rohit Shetty,Hindi
+M037,Jugaad Junction,Comedy,2024-08-15,280000000,310000000,5.9,Anees Bazmee,Hindi
+M038,Paani,Drama,2025-05-01,700000000,2100000000,8.0,Shyam Benegal,Hindi
