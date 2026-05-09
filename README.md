@@ -85,7 +85,7 @@ cineverse/
 ### 1. Clone and configure
 
 ```bash
-git clone https://github.com/your-username/secure-AI-assistant.git
+git clone https://github.com/Aditya-Kaul/secure-AI-assistant.git
 cd secure-AI-assistant
 
 cp .env.example .env
