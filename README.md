@@ -39,36 +39,36 @@ cineverse/
 │   ├── core/
 │   │   └── config.py            # All env vars and constants
 │   ├── api/
-│   │   ├── utils.py      # Rate limiter (shared via Depends)
+│   │   ├── utils.py      # Rate limiter 
 │   │   └── routes/
-│   │       ├── chat.py          # POST /chat
-│   │       ├── ingest.py        # POST /ingest
-│   │       ├── analytics.py     # GET  /analytics
-│   │       ├── query.py         # POST /query/sql, /query/docs, /query/csv
-│   │       └── history.py       # GET  /history
+│   │       ├── chat.py          
+│   │       ├── ingest.py        
+│   │       ├── analytics.py     
+│   │       ├── query.py         
+│   │       └── history.py       
 │   ├── tools/
-│   │   ├── sql_tool.py          # SELECT-only, approved tables, 100-row cap
-│   │   ├── pdf_tool.py          # TF-IDF search over chunked PDFs
-│   │   └── csv_tool.py          # Filtered aggregations, approved files only
+│   │   ├── sql_tool.py          
+│   │   ├── pdf_tool.py          
+│   │   └── csv_tool.py          
 │   ├── services/
-│   │   ├── ai_orchestrator.py   # Agentic loop — Grok tool-calling
-│   │   └── ingestion.py         # CSV loader + PDF chunker
+│   │   ├── ai_orchestrator.py   
+│   │   └── ingestion.py         
 │   ├── db/
-│   │   ├── schema.sql           # Tables, indexes, views
-│   │   └── history.py           # Query history persistence
+│   │   ├── schema.sql          
+│   │   └── history.py           
 │   └── data/
-│       ├── csvs/                # 6 CSV files
-│       └── pdfs/                # 5 PDF documents
+│       ├── csvs/                
+│       └── pdfs/               
 ├── frontend/
 │   └── src/
-│       ├── api.js               # All backend calls
-│       ├── App.jsx              # Layout + routing
+│       ├── api.js               
+│       ├── App.jsx              
 │       └── components/
-│           ├── Sidebar.jsx      # Nav + film-strip motif
-│           ├── ChatPanel.jsx    # Conversation + demo questions
-│           ├── SourcePanel.jsx  # Tool trace drawer
-│           ├── ChartView.jsx    # 4 charts + 2025 table
-│           └── HistoryPanel.jsx # Expandable query history
+│           ├── Sidebar.jsx      
+│           ├── ChatPanel.jsx    
+│           ├── SourcePanel.jsx  
+│           ├── ChartView.jsx    
+│           └── HistoryPanel.jsx 
 ├── docker-compose.yml
 ├── .env.example
 └── README.md
