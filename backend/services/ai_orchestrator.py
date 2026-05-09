@@ -33,7 +33,7 @@ client = OpenAI(
     api_key=os.environ["GROQ_API_KEY"],
     base_url="https://api.groq.com/openai/v1",
 )
-MODEL = "llama-3.1-8b-instant"   # or "llama3-groq-8b-8192-tool-use-preview" for faster/cheaper
+MODEL = "llama-3.1-8b-instant"   # 
 
 MAX_TOOL_ROUNDS = 4
 
@@ -174,22 +174,6 @@ def run_chat(
     user_message: str,
     conversation_history: list[dict] | None = None,
 ) -> dict[str, Any]:
-    """
-    Main entry point. Called by the FastAPI /chat endpoint.
-
-    Args:
-        user_message:         The user's question.
-        conversation_history: Prior turns for multi-turn chat support.
-
-    Returns:
-        {
-            "answer":      str,
-            "tool_calls":  list[dict],
-            "sources":     list[str],
-            "model":       str,
-            "duration_ms": int
-        }
-    """
     start = time.time()
     tool_trace: list[dict] = []
     sources_used: set[str] = set()

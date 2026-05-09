@@ -26,7 +26,7 @@ async def analytics(_=Depends(rate_limit)):
     try:
         return {
             "top_movies": _run(
-                "SELECT title, genre, revenue_inr, rating, avg_completion_pct "
+                "SELECT title, genre, revenue_inr, imdb_rating, avg_completion_pct "
                 "FROM vw_movie_performance "
                 "ORDER BY revenue_inr DESC LIMIT 5"
             ),
@@ -44,7 +44,7 @@ async def analytics(_=Depends(rate_limit)):
                 "ORDER BY peak_engagement DESC LIMIT 8"
             ),
             "releases_2025": _run(
-                "SELECT title, genre, revenue_inr, rating, avg_completion_pct, roi "
+                "SELECT title, genre, revenue_inr, imdb_rating, avg_completion_pct, roi "
                 "FROM vw_movie_performance "
                 "WHERE release_year = 2025 "
                 "ORDER BY revenue_inr DESC"
