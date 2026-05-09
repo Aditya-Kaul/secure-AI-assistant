@@ -35,11 +35,11 @@ validation. It never receives raw DB access, file system paths, or API keys.
 ```
 cineverse/
 ├── backend/
-│   ├── main.py                  # App factory — mounts routers only
+│   ├── main.py                 
 │   ├── core/
-│   │   └── config.py            # All env vars and constants
+│   │   └── config.py           
 │   ├── api/
-│   │   ├── utils.py      # Rate limiter 
+│   │   ├── utils.py     
 │   │   └── routes/
 │   │       ├── chat.py          
 │   │       ├── ingest.py        
