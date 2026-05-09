@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=JetBrains+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap');
+
+/* ── Design tokens ─────────────────────────────────────────── */
+:root {
+  --bg-base:        #0e0e10;
+  --bg-surface:     #16161a;
+  --bg-elevated:    #1e1e24;
+  --bg-hover:       #26262e;
+
+  --gold:           #c9a84c;
+  --gold-dim:       #8a6f32;
+  --gold-glow:      rgba(201,168,76,0.15);
+
+  --text-primary:   #f0ece0;
+  --text-secondary: #9a9585;
+  --text-muted:     #5a5650;
+
+  --accent-green:   #4caf82;
+  --accent-red:     #d45f5f;
+  --accent-blue:    #5f9fd4;
+
+  --border:         rgba(201,168,76,0.15);
+  --border-strong:  rgba(201,168,76,0.35);
+
+  --radius:         6px;
+  --radius-lg:      12px;
+
+  --font-display:   'Cormorant Garamond', serif;
+  --font-mono:      'JetBrains Mono', monospace;
+  --font-body:      'DM Sans', sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root {
+  height: 100%;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--gold-dim); border-radius: 2px; }
+
+/* Film grain overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.4;
+}
+
+/* Utility */
+.mono { font-family: var(--font-mono); }
+.gold { color: var(--gold); }
